@@ -1,0 +1,123 @@
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  background-color: rgb(196, 196, 196);
+}
+
+.title {
+  margin-top: 20px;
+}
+.container {
+  border: 1px solid rgb(253, 253, 253);
+  width: 1000px;
+  height: 530px;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  background-image: linear-gradient(
+    to right,
+    rgb(2, 2, 194),
+    rgb(63, 150, 250)
+  );
+}
+
+.cards {
+  width: 18rem;
+  border: 1px solid rgb(245, 245, 245);
+  padding: 5px;
+  background-color: rgb(245, 245, 245);
+  text-align: center;
+  border-radius: 16px;
+  margin: 18px;
+}
+
+.card-title {
+  color: black;
+  opacity: 0.4;
+}
+
+.price {
+  font-size: 40px;
+  font-family: "Noto Sans", sans-serif;
+  padding-top: 5px;
+}
+
+.breakline {
+  border-bottom: 1px solid black;
+  margin-top: 18px;
+  opacity: 0.2;
+}
+
+.user,
+.storage,
+.publics,
+.privates,
+.community,
+.support,
+.subdomain,
+.reports {
+  display: flex;
+  padding-left: 15px;
+  gap: 5px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.privates1,
+.support1,
+.subdomain1,
+.reports1 {
+  display: flex;
+  padding-left: 15px;
+  gap: 5px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.reports2 {
+  display: flex;
+  padding-left: 15px;
+  gap: 5px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.material-symbols-outlined {
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 4px;
+}
+
+.privates1,
+.unlimited1,
+.support1,
+.subdomain1,
+.reports1,
+.reports2 {
+  opacity: 0.5;
+}
+
+.btn1,
+.btn2 {
+  border-radius: 40px;
+  margin-bottom: 0px;
+  font-weight: bold;
+  background-color: #175ef8;
+  color: rgb(245, 245, 245);
+  width: 240px;
+  opacity: 0.8;
+}
+
+.btn3 {
+  border-radius: 40px;
+  margin-bottom: 0px;
+  font-weight: bold;
+  background-color: #0353ff;
+  color: rgb(245, 245, 245);
+  width: 240px;
+  /* opacity: 0.8; */
+}
+
+button:hover {
+  cursor: pointer;
+  box-shadow: 0 0 20px rgb(0, 119, 255);
+}
